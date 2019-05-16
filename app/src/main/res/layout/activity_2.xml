@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:background="@drawable/cinemajapan"
+    >
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/race3"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/buttonMovie1"
+
+        />
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="102dp"
+        android:layout_alignLeft="@+id/buttonMovie1"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/desrace3"
+        android:textSize="8dp"
+        android:textColor="#ffffff"
+        android:id="@+id/textMovie1"
+
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/endgame"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/buttonMovie2"
+        android:layout_below="@+id/buttonMovie1"
+
+
+        />
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/textMovie1"
+        android:layout_alignLeft="@+id/buttonMovie2"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="59dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/desendgame"
+        android:textSize="8dp"
+        android:textColor="#ffffff"
+        android:id="@+id/textMovie2"
+
+        />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/blackpanther"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/buttonMovie3"
+        android:layout_below="@+id/buttonMovie2"
+
+        />
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/textMovie2"
+        android:layout_alignLeft="@+id/buttonMovie3"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="55dp"
+        android:autoSizeTextType="uniform"
+        android:textColor="#ffffff"
+        android:textSize="8dp"
+        android:text="@string/desblackpanther"
+
+        />
+
+
+
+</RelativeLayout>

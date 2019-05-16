@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLogin">
+    <EditText
+        android:id="@+id/inLEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/inLpass"
+        android:layout_below="@+id/inLEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonLogin"
+        android:background="@drawable/button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+
+
+        />
+    <Button
+        android:id="@+id/buttonLRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here to register"
+        android:typeface="sans"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_marginTop="80dp"
+        android:textColor="#B1B0B0"
+        android:background="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/loginicon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:autoSizeTextType="uniform"
+        android:text="Login to continue"
+        android:typeface="sans"
+        android:textColor="#9B9999"/>
+    <TextView
+        android:id="@+id/textBtnforPassReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password"
+        android:typeface="sans"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_marginTop="30dp"
+        android:textColor="#B1B0B0"
+        android:layout_centerHorizontal="true"
+        android:onClick="ResetPassword"
+        />
+
+
+</RelativeLayout>
